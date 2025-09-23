@@ -17,6 +17,7 @@ import { RevenueChart } from "./widgets/RevenueChart";
 import { ConversionFunnel } from "./widgets/ConversionFunnel";
 import { UserEngagement } from "./widgets/UserEngagement";
 import { PerformanceIndicators } from "./widgets/PerformanceIndicators";
+import { DataTable } from "./widgets/DataTable";
 import { useGoogleSheets } from "@/hooks/useGoogleSheets";
 import cyberpunkHero from "@/assets/cyberpunk-hero.jpg";
 
@@ -154,10 +155,13 @@ export const Dashboard = () => {
         </div>
 
         {/* Bottom Row */}
-        <div className="grid grid-cols-1 lg:grid-cols-2 gap-6">
+        <div className="grid grid-cols-1 lg:grid-cols-2 gap-6 mb-8">
           <ConversionFunnel data={data} loading={loading} />
           <PerformanceIndicators data={data} loading={loading} />
         </div>
+
+        {/* Data Table - Full Width */}
+        <DataTable data={data} loading={loading} />
       </div>
     </div>
   );
