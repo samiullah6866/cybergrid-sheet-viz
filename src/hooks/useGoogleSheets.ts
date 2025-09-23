@@ -33,13 +33,34 @@ export const useGoogleSheets = () => {
       
       // Skip header row and parse data
       const parsedData: SheetData[] = rows.slice(1).map((row, index) => {
-        const columns = row.split(',').map(col => col.replace(/"/g, '').trim());
+        // Handle CSV parsing with potential commas in quoted values
+        const columns = [];
+        let current = '';
+        let inQuotes = false;
+        
+        for (let i = 0; i < row.length; i++) {
+          const char = row[i];
+          if (char === '"') {
+            inQuotes = !inQuotes;
+          } else if (char === ',' && !inQuotes) {
+            columns.push(current.trim());
+            current = '';
+          } else {
+            current += char;
+          }
+        }
+        columns.push(current.trim()); // Add the last column
+        
+        // Clean up payment value - remove $ and quotes
+        const paymentValue = columns[4] || '0';
+        const cleanPayment = paymentValue.replace(/[$,"]/g, '').trim();
+        
         return {
           id: columns[0] || `row-${index}`,
           name: columns[1] || '',
-          fatherName: columns[2] || '',
+          fatherName: columns[2] || '', 
           email: columns[3] || '',
-          payment: columns[4] || '0'
+          payment: cleanPayment || '0'
         };
       }).filter(item => item.name || item.email); // Filter out empty rows
       
