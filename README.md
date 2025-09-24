@@ -69,7 +69,8 @@ Simply open [Lovable](https://lovable.dev/projects/4f9f4046-6f4e-4498-90d2-207bc
 <img width="1356" height="640" alt="image" src="https://github.com/user-attachments/assets/02046b55-d10c-42cb-811f-e4b6d80fa1f9" />
 
 
-![Uploading image.png…]()
+<img width="1361" height="619" alt="image" src="https://github.com/user-attachments/assets/d6a97db3-6cf3-4e6d-972f-6745fa2ba49e" />
+
 
 
 
