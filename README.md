@@ -64,10 +64,10 @@ This project is built with:
 
 Simply open [Lovable](https://lovable.dev/projects/4f9f4046-6f4e-4498-90d2-207bca7b04e7) and click on Share -> Publish.
 
-## Can I connect a custom domain to my Lovable project?
+<img width="1366" height="642" alt="image" src="https://github.com/user-attachments/assets/f3a29308-b8f5-4cdd-9351-bb4a5391e22a" />
 
-Yes, you can!
+<img width="1356" height="640" alt="image" src="https://github.com/user-attachments/assets/02046b55-d10c-42cb-811f-e4b6d80fa1f9" />
 
-To connect a domain, navigate to Project > Settings > Domains and click Connect Domain.
+
 
 Read more here: [Setting up a custom domain](https://docs.lovable.dev/features/custom-domain#custom-domain)
