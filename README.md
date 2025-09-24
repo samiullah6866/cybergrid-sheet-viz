@@ -1,66 +1,49 @@
-# Welcome to My Admin dashboard mnage With AI
+# CyberGrid Sheet Viz
 
-## Project info
+[Live Preview](https://preview--cybergrid-sheet-viz.lovable.app/)  
+Backend powered by **n8n** workflows
 
-**URL**: https://lovable.dev/projects/4f9f4046-6f4e-4498-90d2-207bca7b04e7
+---
 
-## How can I edit this code?
+## 🚀 About The Project
 
-There are several ways of editing your application.
+CyberGrid Sheet Viz ek web-app hai jo Google Sheets ke data ko visual aur interactive form me dikhata hai.  
+Users Google Sheets me data **add**, **update**, ya **retrieve** kar sakte hain via frontend UI, aur backend workflows n8n ke through handle hote hain.
 
-**Use Lovable**
+Ye project spreadsheet-based workflows ko automate aur simplify karne ke liye banaya gaya hai — bina complex coding likhe.
 
-Simply visit the [Lovable Project](https://lovable.dev/projects/4f9f4046-6f4e-4498-90d2-207bca7b04e7) and start prompting.
+---
 
-Changes made via Lovable will be committed automatically to this repo.
+## 🌟 Features
 
-**Use your preferred IDE**
+- Google Sheets ke data ko manage karna (Add / Update / Retrieve)  
+- Real-time integration with n8n workflows  
+- Clean aur responsive UI (Lovable frontend)  
+- Easy extensibility for new automations  
+- Developer-friendly structure (frontend + backend separate)  
 
-If you want to work locally using your own IDE, you can clone this repo and push changes. Pushed changes will also be reflected in Lovable.
+---
 
-The only requirement is having Node.js & npm installed - [install with nvm](https://github.com/nvm-sh/nvm#installing-and-updating)
+## 🛠 Tech Stack
 
-Follow these steps:
+| Component         | Technology Used              |
+|------------------|-----------------------------|
+| Frontend         | [Lovable](https://lovable.dev) |
+| Backend Workflows| [n8n](https://n8n.io)       |
+| Data Storage     | Google Sheets               |
+| Deployment       | Lovable Preview / Vercel / Netlify |
 
-```sh
-# Step 1: Clone the repository using the project's Git URL.
-git clone <YOUR_GIT_URL>
+---
 
-# Step 2: Navigate to the project directory.
-cd <YOUR_PROJECT_NAME>
+## ⚙️ Installation & Setup
 
-# Step 3: Install the necessary dependencies.
-npm i
+Follow these steps agar apne local environment ya apne repo se project run karna hai:
 
-# Step 4: Start the development server with auto-reloading and an instant preview.
-npm run dev
-```
+1. **Clone the repo**
+   ```bash
+   git clone https://github.com/your-username/cybergrid-sheet-viz.git
+   cd cybergrid-sheet-viz
 
-**Edit a file directly in GitHub**
-
-- Navigate to the desired file(s).
-- Click the "Edit" button (pencil icon) at the top right of the file view.
-- Make your changes and commit the changes.
-
-**Use GitHub Codespaces**
-
-- Navigate to the main page of your repository.
-- Click on the "Code" button (green button) near the top right.
-- Select the "Codespaces" tab.
-- Click on "New codespace" to launch a new Codespace environment.
-- Edit files directly within the Codespace and commit and push your changes once you're done.
-
-## What technologies are used for this project?
-
-This project is built with:
-
-- Vite
-- TypeScript
-- React
-- shadcn-ui
-- Tailwind CSS
-
-## How can I deploy this project?
 
 Simply open [Lovable](https://lovable.dev/projects/4f9f4046-6f4e-4498-90d2-207bca7b04e7) and click on Share -> Publish.
 
