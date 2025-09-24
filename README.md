@@ -1,4 +1,4 @@
-# Welcome to your Lovable project
+# Welcome to My Admin dashboard mnage With AI
 
 ## Project info
 
