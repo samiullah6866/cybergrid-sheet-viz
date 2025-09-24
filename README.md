@@ -69,5 +69,8 @@ Simply open [Lovable](https://lovable.dev/projects/4f9f4046-6f4e-4498-90d2-207bc
 <img width="1356" height="640" alt="image" src="https://github.com/user-attachments/assets/02046b55-d10c-42cb-811f-e4b6d80fa1f9" />
 
 
+![Uploading image.png…]()
+
+
 
 Read more here: [Setting up a custom domain](https://docs.lovable.dev/features/custom-domain#custom-domain)
